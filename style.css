@@ -9,8 +9,7 @@ header{
 }
 
 .logo{
-    padding-top: 10px;
-    padding-left: 5px;
+    vertical-align: middle;
 }
 .logo2{
     padding-top: 5px;
@@ -18,13 +17,12 @@ header{
 }
 h1{
     display: inline-block;
+    vertical-align: middle;
 }
 
 main{
     background-color: #dcdcdce7;
     margin-top: 0;
-    background-size: cover;
-    height: 550px;
     padding: 20px 0;
 }
 
@@ -72,7 +70,6 @@ main{
 
 .contenitore2{
     width: 500px;
-    height: 470px;
     text-align: left;
     padding-left: 40px;
     margin-left: 24%;
@@ -132,7 +129,9 @@ p{
     height: 25px;
     background-color: white
 }
-
+.sct:last-child{
+    padding-bottom: 30px;
+}
 .editorial{
     background-color: rgb(0, 204, 255);
 }
